@@ -3,33 +3,34 @@ import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
 const FeatureList = [
+ 
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'La Vida es Hermosa',
+    
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        A veces solo hay que mirar al cielo, respirar profundo y sonreír 🌿.  
+        La vida está llena de momentos mágicos que merecen ser disfrutados.
       </>
     ),
   },
+
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'No te rindas',
+    
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Solo tienes que tomarte un tiempo para poder respirar y todo estara bien, Dios no te da peleas que no puedas ganar.
       </>
     ),
   },
+
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Eres la mas bella creacion',
+    
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Si alguien te dice que no vales la pena o que eres feo, no les hagas caso porque tu eres el mas grande milagro de la creacion.
       </>
     ),
   },
@@ -38,9 +39,7 @@ const FeatureList = [
 function Feature({Svg, title, description}) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
+      
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
         <p>{description}</p>

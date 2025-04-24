@@ -11,14 +11,14 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Mi Sitio',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Ve a Tutorial para empezar a apreciar la vista',
   favicon: 'img/Pikachu.ico',
 
   // Set the production url of your site here
   url: 'https://WalkerWhiter.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/DocuDocu',
+  baseUrl: '/DocuDocu/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
